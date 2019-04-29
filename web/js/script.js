@@ -30,7 +30,7 @@ $(document).ready(function () {
                 type: 'POST',
                 url: 'ajax.jsp',
                 data: dados,
-                //funcao para pegar o retorno
+               
                 success: function (resposta) {
                     $('#resultado').html(resposta)
                 },
